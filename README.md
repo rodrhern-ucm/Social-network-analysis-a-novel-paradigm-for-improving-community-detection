@@ -49,6 +49,12 @@ To replicate the analyses, use the following software versions:
    - Evaluates the performance of community detection algorithms.
    - Generates improvement metrics and visualizations, including boxplots.
    - Outputs aggregated results in `Metrics/alpha_distribution.csv`.
+  
+4. **`Functions.R`**
+   - Supporting functions used in the code for aggregation.
+   - Additional functions were other approaches not described in this paper are also applicable: resolution parameter iteration and other aggregation forms.
+
+
 
 ---
 
@@ -62,7 +68,7 @@ To replicate the analyses, use the following software versions:
 4. **`ml_models_amplified.R`**:
    - Builds, tunes, and evaluates machine learning models to predict improvement likelihood in community detection.
    - Implements models including Logistic Regression, SVM, Random Forest, XGBoost, and Decision Trees.
-   - Results are printed directly in screen. Not included predictions in this repository due to size
+   - Results are printed directly in screen. Not included predictions in this repository due to size.
 
 ### Output Files
 
