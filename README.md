@@ -19,7 +19,6 @@ The repository includes:
 - **`Codes/`**: Scripts for running the methodology.
 - **`Metrics/`**: Summaries and statistics for various steps in the methodology.
 - **`Results/`**: Outputs for all combinations of evaluated networks. Here is stored individually the results which are input for Table 1 (among the rest of networks)
-- **`ML Models/`**: Predictions and summary tables from machine learning models used in the paper.
 
 ---
 
@@ -62,12 +61,15 @@ To replicate the analyses, use the following software versions:
 4. **`ml_models_amplified.R`**:
    - Builds, tunes, and evaluates machine learning models to predict improvement likelihood in community detection.
    - Implements models including Logistic Regression, SVM, Random Forest, XGBoost, and Decision Trees.
+   - Results are printed directly in screen. Not included predictions in this repository due to size
 
 ### Output Files
 
 - **`plot1_improvement_by_algorithm.pdf`**: Distribution of improvement percentages for each algorithm.
 - **`plot2_improvement_by_network.pdf`**: Histograms of improvement percentages for analyzed networks.
 - **`plot3_combined_improvement.pdf`**: Holistic visualization of improvements across networks and algorithms.
+- **`case_base_modularities.csv`**: All benchmark modularities for each of the 90 networks.
+- **`alpha_distribution.pdf`**: Table describing which combination of alpha parameters are getting more probabilities of improvement.
 
 ---
 
