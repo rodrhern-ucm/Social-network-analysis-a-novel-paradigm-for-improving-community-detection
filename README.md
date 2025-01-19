@@ -19,7 +19,7 @@ The repository includes:
 - **`Codes/`**: Scripts for running the methodology.
 - **`Metrics/`**: Summaries and statistics for various steps in the methodology.
 - **`Results/`**: Outputs for all combinations of evaluated networks. Here is stored individually the results which are input for Table 1 (among the rest of networks)
-- **`Case study/`**: Input files (Emisor.csv and Receptor.csv) for building up the graph and communities vector input for Figure 4. Results obtained using same codes as for the rest of networks
+- **`Case study/`**: Input files (Emisor.csv and Receptor.csv) for building up the graph and communities vector (corrected_community_values_ccaa.csv) input for Figure 4. Results obtained using same codes as for the rest of networks
 
 ---
 
