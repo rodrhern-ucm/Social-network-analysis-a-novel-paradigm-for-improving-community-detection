@@ -18,8 +18,13 @@ The repository includes:
 
 - **`Codes/`**: Scripts for running the methodology.
 - **`Metrics/`**: Summaries and statistics for various steps in the methodology.
-- **`Results/`**: Outputs for all combinations of evaluated networks. Here is stored individually the results which are input for Table 1 (among the rest of networks)
-- **`Case study/`**: Input files (Emisor.csv and Receptor.csv) for building up the graph and communities vector (corrected_community_values_ccaa.csv) input for Figure 4. Results obtained using same codes as for the rest of networks
+- **`Results/`**: Outputs for all combinations of evaluated networks. Here is stored individually the results which are input for Table 1 (among the rest of networks).
+- **`Case study/`**: Input files and scripts for constructing and analyzing the real-world network case study.
+  - **`clean_graph_data.csv`**: Pre-processed data used to define the network structure.
+  - **`real case graph creation.ipynb`**: Jupyter notebook that constructs the network from the clean dataset.
+  - **`calculo_redes_real_case.R`**: R script for applying community detection and computing modularity.
+  - **`monthly partitions.xlsx`**: Output file containing monthly partitioning results for community detection.
+- **`scripts/`**: Additional scripts for data processing, visualizations, and machine learning analysis.
 
 ---
 
@@ -29,6 +34,18 @@ To replicate the analyses, use the following software versions:
 
 - **R**: Version 3.4.2
 - **Python**: Version 3.11.0
+
+Install required R packages:
+
+```r
+install.packages(c("igraph", "rvest", "readr", "hydra", "dplyr", "ggplot2", "tidyr", "randomForest", "xgboost", "Metrics", "caret", "doParallel", "arrow", "visNetwork", "combinat", "igraphdata"))
+```
+
+For Jupyter Notebooks:
+
+```bash
+pip install jupyter pandas networkx matplotlib
+```
 
 ---
 
@@ -52,32 +69,55 @@ To replicate the analyses, use the following software versions:
   
 4. **`Functions.R`**
    - Supporting functions used in the code for aggregation.
-   - Additional functions were other approaches not described in this paper are also applicable: resolution parameter iteration and other aggregation forms.
+   - Additional functions for other approaches not described in this paper, including resolution parameter iteration and alternative aggregation methods.
 
+5. **`analisis_redes.R`**
+   - Reads modularity results from multiple CSV files and computes performance metrics for different algorithms.
 
+6. **`bernoulli_v2.R`**
+   - Computes confidence intervals for algorithm performance based on Bernoulli distributions.
+
+7. **`calculo_redes_nuevo.R`**
+   - Iterates over multiple networks, precomputes adjacency matrices, and applies different clustering algorithms.
+
+8. **`calculo_redes_real_case.R`**
+   - Processes a real-world network dataset, applying modularity-based community detection methods.
+
+9. **`Nodes and Edges.R`**
+   - Computes the number of nodes and edges in given `.graphml` network files.
+
+10. **`plots heatmap.R`**
+    - Generates heatmaps and computational time comparison plots for different algorithms.
+
+11. **`synthetic network.R`**
+    - Generates synthetic hierarchical networks and saves them as `.graphml` files.
+
+12. **`modelo ampliado (variable importance).R`**
+    - Trains multiple machine learning models (Logistic Regression, SVM, Random Forest, XGBoost) to predict network modularity improvement and extracts variable importance.
+
+13. **`syntethic networks.ipynb`**
+    - Notebook related to synthetic network generation and analysis.
 
 ---
 
 ## Results
-
-### Scripts
-
-1. **`bernoulli.R`**: Calculates confidence intervals for improvement metrics using Bernoulli distributions. Inputs for Tables 2 and 3 in the paper.
-2. **`network_histogram.R`**: Generates histograms for improvement percentages by network and algorithm.
-3. **`result_graphics_generator.R`**: Creates visualizations for improvement distributions across networks and algorithms.
-4. **`ml_models_amplified.R`**:
-   - Builds, tunes, and evaluates machine learning models to predict improvement likelihood in community detection.
-   - Implements models including Logistic Regression, SVM, Random Forest, XGBoost, and Decision Trees.
-   - Results are printed directly in screen. Not included predictions in this repository due to size.
 
 ### Output Files
 
 - **`plot1_improvement_by_algorithm.pdf`**: Distribution of improvement percentages for each algorithm.
 - **`plot2_improvement_by_network.pdf`**: Histograms of improvement percentages for analyzed networks.
 - **`plot3_combined_improvement.pdf`**: Holistic visualization of improvements across networks and algorithms.
-- **`case_base_modularities.csv`**: All benchmark modularities for each of the 90 networks.
-- **`alpha_distribution.pdf`**: Table describing which combination of alpha parameters are getting more probabilities of improvement.
-- **`networks_used.csv`**: List of networks used in this paper. All were download from http://konect.cc/networks/
+- **`fast_greedy_heatmap.pdf`**: Heatmap showing improvement distribution for the Fast Greedy algorithm.
+- **`walktrap_heatmap.pdf`**: Heatmap showing improvement distribution for the Walktrap algorithm.
+- **`leiden_heatmap.pdf`**: Heatmap showing improvement distribution for the Leiden algorithm.
+- **`louvain_heatmap.pdf`**: Heatmap showing improvement distribution for the Louvain algorithm.
+- **`infomap_heatmap.pdf`**: Heatmap showing improvement distribution for the Infomap algorithm.
+- **`all_algorithms_heatmap.pdf`**: Aggregated heatmap comparing all algorithms.
+- **`time_plot.pdf`**: Visualization of computational time increase across different algorithms.
+- **`algorithm_improvement_distribution.pdf`**: Boxplot of improvement percentages across all tested algorithms.
+- **`monthly partitions.xlsx`**: Community detection results for different time periods.
+- **`alpha_distribution.pdf`**: Table describing which combination of alpha parameters have higher probabilities of improvement.
+- **`networks_used.csv`**: List of networks used in this paper. All were downloaded from [http://konect.cc/networks/](http://konect.cc/networks/)
 
 ---
 
