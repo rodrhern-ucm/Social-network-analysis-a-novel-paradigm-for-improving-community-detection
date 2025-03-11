@@ -115,8 +115,6 @@ pip install jupyter pandas networkx matplotlib
 - **`all_algorithms_heatmap.pdf`**: Aggregated heatmap comparing all algorithms.
 - **`time_plot.pdf`**: Visualization of computational time increase across different algorithms.
 - **`algorithm_improvement_distribution.pdf`**: Boxplot of improvement percentages across all tested algorithms.
-- **`monthly partitions.xlsx`**: Community detection results for different time periods.
-- **`alpha_distribution.pdf`**: Table describing which combination of alpha parameters have higher probabilities of improvement.
 - **`networks_used.csv`**: List of networks used in this paper. All were downloaded from [http://konect.cc/networks/](http://konect.cc/networks/)
 
 ---
