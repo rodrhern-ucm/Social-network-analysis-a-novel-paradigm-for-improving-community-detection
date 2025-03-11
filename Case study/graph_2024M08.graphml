@@ -1,0 +1,890 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
+  <graph edgedefault="directed">
+    <node id="Andalucía" />
+    <node id="Aragón" />
+    <node id="Asturias, Principado de" />
+    <node id="Balears, Illes" />
+    <node id="Canarias" />
+    <node id="Cantabria" />
+    <node id="Castilla - La Mancha" />
+    <node id="Castilla y León" />
+    <node id="Cataluña" />
+    <node id="Comunitat Valenciana" />
+    <node id="Extremadura" />
+    <node id="Galicia" />
+    <node id="Madrid, Comunidad de" />
+    <node id="Murcia, Región de" />
+    <node id="Navarra, Comunidad Foral de" />
+    <node id="País Vasco" />
+    <node id="Rioja, La" />
+    <edge source="Andalucía" target="Andalucía">
+      <data key="d0">13.686025</data>
+    </edge>
+    <edge source="Andalucía" target="Aragón">
+      <data key="d0">0.251576</data>
+    </edge>
+    <edge source="Andalucía" target="Asturias, Principado de">
+      <data key="d0">0.396006</data>
+    </edge>
+    <edge source="Andalucía" target="Balears, Illes">
+      <data key="d0">0.392987</data>
+    </edge>
+    <edge source="Andalucía" target="Canarias">
+      <data key="d0">0.410081</data>
+    </edge>
+    <edge source="Andalucía" target="Cantabria">
+      <data key="d0">0.274688</data>
+    </edge>
+    <edge source="Andalucía" target="Castilla y León">
+      <data key="d0">0.70522</data>
+    </edge>
+    <edge source="Andalucía" target="Castilla - La Mancha">
+      <data key="d0">0.498538</data>
+    </edge>
+    <edge source="Andalucía" target="Cataluña">
+      <data key="d0">1.122325</data>
+    </edge>
+    <edge source="Andalucía" target="Comunitat Valenciana">
+      <data key="d0">0.865359</data>
+    </edge>
+    <edge source="Andalucía" target="Extremadura">
+      <data key="d0">0.531751</data>
+    </edge>
+    <edge source="Andalucía" target="Galicia">
+      <data key="d0">0.759643</data>
+    </edge>
+    <edge source="Andalucía" target="Madrid, Comunidad de">
+      <data key="d0">1.610349</data>
+    </edge>
+    <edge source="Andalucía" target="Murcia, Región de">
+      <data key="d0">0.395714</data>
+    </edge>
+    <edge source="Andalucía" target="Navarra, Comunidad Foral de">
+      <data key="d0">0.117521</data>
+    </edge>
+    <edge source="Andalucía" target="País Vasco">
+      <data key="d0">0.352317</data>
+    </edge>
+    <edge source="Andalucía" target="Rioja, La">
+      <data key="d0">0.059135</data>
+    </edge>
+    <edge source="Aragón" target="Andalucía">
+      <data key="d0">0.390139</data>
+    </edge>
+    <edge source="Aragón" target="Aragón">
+      <data key="d0">1.282461</data>
+    </edge>
+    <edge source="Aragón" target="Asturias, Principado de">
+      <data key="d0">0.105971</data>
+    </edge>
+    <edge source="Aragón" target="Balears, Illes">
+      <data key="d0">0.102289</data>
+    </edge>
+    <edge source="Aragón" target="Canarias">
+      <data key="d0">0.073889</data>
+    </edge>
+    <edge source="Aragón" target="Cantabria">
+      <data key="d0">0.146156</data>
+    </edge>
+    <edge source="Aragón" target="Castilla y León">
+      <data key="d0">0.385938</data>
+    </edge>
+    <edge source="Aragón" target="Castilla - La Mancha">
+      <data key="d0">0.138659</data>
+    </edge>
+    <edge source="Aragón" target="Cataluña">
+      <data key="d0">1.329216</data>
+    </edge>
+    <edge source="Aragón" target="Comunitat Valenciana">
+      <data key="d0">0.978127</data>
+    </edge>
+    <edge source="Aragón" target="Extremadura">
+      <data key="d0">0.051449</data>
+    </edge>
+    <edge source="Aragón" target="Galicia">
+      <data key="d0">0.175355</data>
+    </edge>
+    <edge source="Aragón" target="Madrid, Comunidad de">
+      <data key="d0">0.243803</data>
+    </edge>
+    <edge source="Aragón" target="Murcia, Región de">
+      <data key="d0">0.04315</data>
+    </edge>
+    <edge source="Aragón" target="Navarra, Comunidad Foral de">
+      <data key="d0">0.119585</data>
+    </edge>
+    <edge source="Aragón" target="País Vasco">
+      <data key="d0">0.129556</data>
+    </edge>
+    <edge source="Aragón" target="Rioja, La">
+      <data key="d0">0.064348</data>
+    </edge>
+    <edge source="Asturias, Principado de" target="Andalucía">
+      <data key="d0">0.227023</data>
+    </edge>
+    <edge source="Asturias, Principado de" target="Aragón">
+      <data key="d0">0.02004</data>
+    </edge>
+    <edge source="Asturias, Principado de" target="Asturias, Principado de">
+      <data key="d0">0.0</data>
+    </edge>
+    <edge source="Asturias, Principado de" target="Balears, Illes">
+      <data key="d0">0.039912</data>
+    </edge>
+    <edge source="Asturias, Principado de" target="Canarias">
+      <data key="d0">0.058307</data>
+    </edge>
+    <edge source="Asturias, Principado de" target="Cantabria">
+      <data key="d0">0.073803</data>
+    </edge>
+    <edge source="Asturias, Principado de" target="Castilla y León">
+      <data key="d0">0.53082</data>
+    </edge>
+    <edge source="Asturias, Principado de" target="Castilla - La Mancha">
+      <data key="d0">0.028862</data>
+    </edge>
+    <edge source="Asturias, Principado de" target="Cataluña">
+      <data key="d0">0.066925</data>
+    </edge>
+    <edge source="Asturias, Principado de" target="Comunitat Valenciana">
+      <data key="d0">0.137404</data>
+    </edge>
+    <edge source="Asturias, Principado de" target="Extremadura">
+      <data key="d0">0.034153</data>
+    </edge>
+    <edge source="Asturias, Principado de" target="Galicia">
+      <data key="d0">0.329063</data>
+    </edge>
+    <edge source="Asturias, Principado de" target="Madrid, Comunidad de">
+      <data key="d0">0.133866</data>
+    </edge>
+    <edge source="Asturias, Principado de" target="Murcia, Región de">
+      <data key="d0">0.031634</data>
+    </edge>
+    <edge source="Asturias, Principado de" target="Navarra, Comunidad Foral de">
+      <data key="d0">0.00891</data>
+    </edge>
+    <edge source="Asturias, Principado de" target="País Vasco">
+      <data key="d0">0.049732</data>
+    </edge>
+    <edge source="Asturias, Principado de" target="Rioja, La">
+      <data key="d0">0.007769</data>
+    </edge>
+    <edge source="Balears, Illes" target="Andalucía">
+      <data key="d0">0.235165</data>
+    </edge>
+    <edge source="Balears, Illes" target="Aragón">
+      <data key="d0">0.049587</data>
+    </edge>
+    <edge source="Balears, Illes" target="Asturias, Principado de">
+      <data key="d0">0.053456</data>
+    </edge>
+    <edge source="Balears, Illes" target="Balears, Illes">
+      <data key="d0">0.0</data>
+    </edge>
+    <edge source="Balears, Illes" target="Canarias">
+      <data key="d0">0.044006</data>
+    </edge>
+    <edge source="Balears, Illes" target="Cantabria">
+      <data key="d0">0.032789</data>
+    </edge>
+    <edge source="Balears, Illes" target="Castilla y León">
+      <data key="d0">0.096353</data>
+    </edge>
+    <edge source="Balears, Illes" target="Castilla - La Mancha">
+      <data key="d0">0.065505</data>
+    </edge>
+    <edge source="Balears, Illes" target="Cataluña">
+      <data key="d0">0.315201</data>
+    </edge>
+    <edge source="Balears, Illes" target="Comunitat Valenciana">
+      <data key="d0">0.151609</data>
+    </edge>
+    <edge source="Balears, Illes" target="Extremadura">
+      <data key="d0">0.030375</data>
+    </edge>
+    <edge source="Balears, Illes" target="Galicia">
+      <data key="d0">0.097893</data>
+    </edge>
+    <edge source="Balears, Illes" target="Madrid, Comunidad de">
+      <data key="d0">0.198338</data>
+    </edge>
+    <edge source="Balears, Illes" target="Murcia, Región de">
+      <data key="d0">0.027805</data>
+    </edge>
+    <edge source="Balears, Illes" target="Navarra, Comunidad Foral de">
+      <data key="d0">0.014375</data>
+    </edge>
+    <edge source="Balears, Illes" target="País Vasco">
+      <data key="d0">0.047469</data>
+    </edge>
+    <edge source="Balears, Illes" target="Rioja, La">
+      <data key="d0">0.005002</data>
+    </edge>
+    <edge source="Canarias" target="Andalucía">
+      <data key="d0">0.305684</data>
+    </edge>
+    <edge source="Canarias" target="Aragón">
+      <data key="d0">0.0</data>
+    </edge>
+    <edge source="Canarias" target="Asturias, Principado de">
+      <data key="d0">0.0789</data>
+    </edge>
+    <edge source="Canarias" target="Balears, Illes">
+      <data key="d0">0.05648</data>
+    </edge>
+    <edge source="Canarias" target="Canarias">
+      <data key="d0">0.627514</data>
+    </edge>
+    <edge source="Canarias" target="Cantabria">
+      <data key="d0">0.042764</data>
+    </edge>
+    <edge source="Canarias" target="Castilla y León">
+      <data key="d0">0.143399</data>
+    </edge>
+    <edge source="Canarias" target="Castilla - La Mancha">
+      <data key="d0">0.050996</data>
+    </edge>
+    <edge source="Canarias" target="Cataluña">
+      <data key="d0">0.0</data>
+    </edge>
+    <edge source="Canarias" target="Comunitat Valenciana">
+      <data key="d0">0.125885</data>
+    </edge>
+    <edge source="Canarias" target="Extremadura">
+      <data key="d0">0.034525</data>
+    </edge>
+    <edge source="Canarias" target="Galicia">
+      <data key="d0">0.21107</data>
+    </edge>
+    <edge source="Canarias" target="Madrid, Comunidad de">
+      <data key="d0">0.334248</data>
+    </edge>
+    <edge source="Canarias" target="Murcia, Región de">
+      <data key="d0">0.0</data>
+    </edge>
+    <edge source="Canarias" target="Navarra, Comunidad Foral de">
+      <data key="d0">0.020262</data>
+    </edge>
+    <edge source="Canarias" target="País Vasco">
+      <data key="d0">0.073271</data>
+    </edge>
+    <edge source="Canarias" target="Rioja, La">
+      <data key="d0">0.009176</data>
+    </edge>
+    <edge source="Cantabria" target="Andalucía">
+      <data key="d0">0.134405</data>
+    </edge>
+    <edge source="Cantabria" target="Aragón">
+      <data key="d0">0.027197</data>
+    </edge>
+    <edge source="Cantabria" target="Asturias, Principado de">
+      <data key="d0">0.073468</data>
+    </edge>
+    <edge source="Cantabria" target="Balears, Illes">
+      <data key="d0">0.027639</data>
+    </edge>
+    <edge source="Cantabria" target="Canarias">
+      <data key="d0">0.031086</data>
+    </edge>
+    <edge source="Cantabria" target="Cantabria">
+      <data key="d0">0.0</data>
+    </edge>
+    <edge source="Cantabria" target="Castilla y León">
+      <data key="d0">0.242228</data>
+    </edge>
+    <edge source="Cantabria" target="Castilla - La Mancha">
+      <data key="d0">0.024551</data>
+    </edge>
+    <edge source="Cantabria" target="Cataluña">
+      <data key="d0">0.081952</data>
+    </edge>
+    <edge source="Cantabria" target="Comunitat Valenciana">
+      <data key="d0">0.078425</data>
+    </edge>
+    <edge source="Cantabria" target="Extremadura">
+      <data key="d0">0.021128</data>
+    </edge>
+    <edge source="Cantabria" target="Galicia">
+      <data key="d0">0.081119</data>
+    </edge>
+    <edge source="Cantabria" target="Madrid, Comunidad de">
+      <data key="d0">0.160528</data>
+    </edge>
+    <edge source="Cantabria" target="Murcia, Región de">
+      <data key="d0">0.011982</data>
+    </edge>
+    <edge source="Cantabria" target="Navarra, Comunidad Foral de">
+      <data key="d0">0.015787</data>
+    </edge>
+    <edge source="Cantabria" target="País Vasco">
+      <data key="d0">0.170892</data>
+    </edge>
+    <edge source="Cantabria" target="Rioja, La">
+      <data key="d0">0.021241</data>
+    </edge>
+    <edge source="Castilla - La Mancha" target="Andalucía">
+      <data key="d0">1.097944</data>
+    </edge>
+    <edge source="Castilla - La Mancha" target="Aragón">
+      <data key="d0">0.114634</data>
+    </edge>
+    <edge source="Castilla - La Mancha" target="Asturias, Principado de">
+      <data key="d0">0.186951</data>
+    </edge>
+    <edge source="Castilla - La Mancha" target="Balears, Illes">
+      <data key="d0">0.091879</data>
+    </edge>
+    <edge source="Castilla - La Mancha" target="Canarias">
+      <data key="d0">0.109686</data>
+    </edge>
+    <edge source="Castilla - La Mancha" target="Cantabria">
+      <data key="d0">0.146908</data>
+    </edge>
+    <edge source="Castilla - La Mancha" target="Castilla y León">
+      <data key="d0">0.429745</data>
+    </edge>
+    <edge source="Castilla - La Mancha" target="Castilla - La Mancha">
+      <data key="d0">0.619314</data>
+    </edge>
+    <edge source="Castilla - La Mancha" target="Cataluña">
+      <data key="d0">0.360689</data>
+    </edge>
+    <edge source="Castilla - La Mancha" target="Comunitat Valenciana">
+      <data key="d0">1.595921</data>
+    </edge>
+    <edge source="Castilla - La Mancha" target="Extremadura">
+      <data key="d0">0.20446</data>
+    </edge>
+    <edge source="Castilla - La Mancha" target="Galicia">
+      <data key="d0">0.298604</data>
+    </edge>
+    <edge source="Castilla - La Mancha" target="Madrid, Comunidad de">
+      <data key="d0">1.44566</data>
+    </edge>
+    <edge source="Castilla - La Mancha" target="Murcia, Región de">
+      <data key="d0">0.277652</data>
+    </edge>
+    <edge source="Castilla - La Mancha" target="Navarra, Comunidad Foral de">
+      <data key="d0">0.032852</data>
+    </edge>
+    <edge source="Castilla - La Mancha" target="País Vasco">
+      <data key="d0">0.103354</data>
+    </edge>
+    <edge source="Castilla - La Mancha" target="Rioja, La">
+      <data key="d0">0.019655</data>
+    </edge>
+    <edge source="Castilla y León" target="Andalucía">
+      <data key="d0">0.880506</data>
+    </edge>
+    <edge source="Castilla y León" target="Aragón">
+      <data key="d0">0.125714</data>
+    </edge>
+    <edge source="Castilla y León" target="Asturias, Principado de">
+      <data key="d0">0.479026</data>
+    </edge>
+    <edge source="Castilla y León" target="Balears, Illes">
+      <data key="d0">0.112577</data>
+    </edge>
+    <edge source="Castilla y León" target="Canarias">
+      <data key="d0">0.154011</data>
+    </edge>
+    <edge source="Castilla y León" target="Cantabria">
+      <data key="d0">0.656312</data>
+    </edge>
+    <edge source="Castilla y León" target="Castilla y León">
+      <data key="d0">1.789834</data>
+    </edge>
+    <edge source="Castilla y León" target="Castilla - La Mancha">
+      <data key="d0">0.174017</data>
+    </edge>
+    <edge source="Castilla y León" target="Cataluña">
+      <data key="d0">0.494703</data>
+    </edge>
+    <edge source="Castilla y León" target="Comunitat Valenciana">
+      <data key="d0">0.83749</data>
+    </edge>
+    <edge source="Castilla y León" target="Extremadura">
+      <data key="d0">0.179762</data>
+    </edge>
+    <edge source="Castilla y León" target="Galicia">
+      <data key="d0">0.670017</data>
+    </edge>
+    <edge source="Castilla y León" target="Madrid, Comunidad de">
+      <data key="d0">1.159185</data>
+    </edge>
+    <edge source="Castilla y León" target="Murcia, Región de">
+      <data key="d0">0.094935</data>
+    </edge>
+    <edge source="Castilla y León" target="Navarra, Comunidad Foral de">
+      <data key="d0">0.059772</data>
+    </edge>
+    <edge source="Castilla y León" target="País Vasco">
+      <data key="d0">0.401917</data>
+    </edge>
+    <edge source="Castilla y León" target="Rioja, La">
+      <data key="d0">0.071068</data>
+    </edge>
+    <edge source="Cataluña" target="Andalucía">
+      <data key="d0">2.808032</data>
+    </edge>
+    <edge source="Cataluña" target="Aragón">
+      <data key="d0">1.511063</data>
+    </edge>
+    <edge source="Cataluña" target="Asturias, Principado de">
+      <data key="d0">0.390041</data>
+    </edge>
+    <edge source="Cataluña" target="Balears, Illes">
+      <data key="d0">1.407882</data>
+    </edge>
+    <edge source="Cataluña" target="Canarias">
+      <data key="d0">0.363817</data>
+    </edge>
+    <edge source="Cataluña" target="Cantabria">
+      <data key="d0">0.326406</data>
+    </edge>
+    <edge source="Cataluña" target="Castilla y León">
+      <data key="d0">1.369377</data>
+    </edge>
+    <edge source="Cataluña" target="Castilla - La Mancha">
+      <data key="d0">0.751134</data>
+    </edge>
+    <edge source="Cataluña" target="Cataluña">
+      <data key="d0">12.164651</data>
+    </edge>
+    <edge source="Cataluña" target="Comunitat Valenciana">
+      <data key="d0">1.715667</data>
+    </edge>
+    <edge source="Cataluña" target="Extremadura">
+      <data key="d0">0.564424</data>
+    </edge>
+    <edge source="Cataluña" target="Galicia">
+      <data key="d0">1.248446</data>
+    </edge>
+    <edge source="Cataluña" target="Madrid, Comunidad de">
+      <data key="d0">0.918458</data>
+    </edge>
+    <edge source="Cataluña" target="Murcia, Región de">
+      <data key="d0">0.285827</data>
+    </edge>
+    <edge source="Cataluña" target="Navarra, Comunidad Foral de">
+      <data key="d0">0.211166</data>
+    </edge>
+    <edge source="Cataluña" target="País Vasco">
+      <data key="d0">0.471562</data>
+    </edge>
+    <edge source="Cataluña" target="Rioja, La">
+      <data key="d0">0.120076</data>
+    </edge>
+    <edge source="Comunitat Valenciana" target="Andalucía">
+      <data key="d0">1.203001</data>
+    </edge>
+    <edge source="Comunitat Valenciana" target="Aragón">
+      <data key="d0">0.833016</data>
+    </edge>
+    <edge source="Comunitat Valenciana" target="Asturias, Principado de">
+      <data key="d0">0.305894</data>
+    </edge>
+    <edge source="Comunitat Valenciana" target="Balears, Illes">
+      <data key="d0">0.426015</data>
+    </edge>
+    <edge source="Comunitat Valenciana" target="Canarias">
+      <data key="d0">0.181434</data>
+    </edge>
+    <edge source="Comunitat Valenciana" target="Cantabria">
+      <data key="d0">0.213075</data>
+    </edge>
+    <edge source="Comunitat Valenciana" target="Castilla y León">
+      <data key="d0">0.575681</data>
+    </edge>
+    <edge source="Comunitat Valenciana" target="Castilla - La Mancha">
+      <data key="d0">1.371106</data>
+    </edge>
+    <edge source="Comunitat Valenciana" target="Cataluña">
+      <data key="d0">1.042807</data>
+    </edge>
+    <edge source="Comunitat Valenciana" target="Comunitat Valenciana">
+      <data key="d0">3.117096</data>
+    </edge>
+    <edge source="Comunitat Valenciana" target="Extremadura">
+      <data key="d0">0.137989</data>
+    </edge>
+    <edge source="Comunitat Valenciana" target="Galicia">
+      <data key="d0">0.507757</data>
+    </edge>
+    <edge source="Comunitat Valenciana" target="Madrid, Comunidad de">
+      <data key="d0">1.163073</data>
+    </edge>
+    <edge source="Comunitat Valenciana" target="Murcia, Región de">
+      <data key="d0">0.544499</data>
+    </edge>
+    <edge source="Comunitat Valenciana" target="Navarra, Comunidad Foral de">
+      <data key="d0">0.135503</data>
+    </edge>
+    <edge source="Comunitat Valenciana" target="País Vasco">
+      <data key="d0">0.286001</data>
+    </edge>
+    <edge source="Comunitat Valenciana" target="Rioja, La">
+      <data key="d0">0.063284</data>
+    </edge>
+    <edge source="Extremadura" target="Andalucía">
+      <data key="d0">1.077826</data>
+    </edge>
+    <edge source="Extremadura" target="Aragón">
+      <data key="d0">0.029792</data>
+    </edge>
+    <edge source="Extremadura" target="Asturias, Principado de">
+      <data key="d0">0.068254</data>
+    </edge>
+    <edge source="Extremadura" target="Balears, Illes">
+      <data key="d0">0.04517</data>
+    </edge>
+    <edge source="Extremadura" target="Canarias">
+      <data key="d0">0.054349</data>
+    </edge>
+    <edge source="Extremadura" target="Cantabria">
+      <data key="d0">0.041392</data>
+    </edge>
+    <edge source="Extremadura" target="Castilla y León">
+      <data key="d0">0.208336</data>
+    </edge>
+    <edge source="Extremadura" target="Castilla - La Mancha">
+      <data key="d0">0.105026</data>
+    </edge>
+    <edge source="Extremadura" target="Cataluña">
+      <data key="d0">0.0</data>
+    </edge>
+    <edge source="Extremadura" target="Comunitat Valenciana">
+      <data key="d0">0.146346</data>
+    </edge>
+    <edge source="Extremadura" target="Extremadura">
+      <data key="d0">0.318303</data>
+    </edge>
+    <edge source="Extremadura" target="Galicia">
+      <data key="d0">0.112707</data>
+    </edge>
+    <edge source="Extremadura" target="Madrid, Comunidad de">
+      <data key="d0">0.330951</data>
+    </edge>
+    <edge source="Extremadura" target="Murcia, Región de">
+      <data key="d0">0.029721</data>
+    </edge>
+    <edge source="Extremadura" target="Navarra, Comunidad Foral de">
+      <data key="d0">0.014869</data>
+    </edge>
+    <edge source="Extremadura" target="País Vasco">
+      <data key="d0">0.071244</data>
+    </edge>
+    <edge source="Extremadura" target="Rioja, La">
+      <data key="d0">0.006811</data>
+    </edge>
+    <edge source="Galicia" target="Andalucía">
+      <data key="d0">0.486395</data>
+    </edge>
+    <edge source="Galicia" target="Aragón">
+      <data key="d0">0.080852</data>
+    </edge>
+    <edge source="Galicia" target="Asturias, Principado de">
+      <data key="d0">0.223355</data>
+    </edge>
+    <edge source="Galicia" target="Balears, Illes">
+      <data key="d0">0.113823</data>
+    </edge>
+    <edge source="Galicia" target="Canarias">
+      <data key="d0">0.222593</data>
+    </edge>
+    <edge source="Galicia" target="Cantabria">
+      <data key="d0">0.076508</data>
+    </edge>
+    <edge source="Galicia" target="Castilla y León">
+      <data key="d0">0.426066</data>
+    </edge>
+    <edge source="Galicia" target="Castilla - La Mancha">
+      <data key="d0">0.101057</data>
+    </edge>
+    <edge source="Galicia" target="Cataluña">
+      <data key="d0">0.0</data>
+    </edge>
+    <edge source="Galicia" target="Comunitat Valenciana">
+      <data key="d0">0.296489</data>
+    </edge>
+    <edge source="Galicia" target="Extremadura">
+      <data key="d0">0.059998</data>
+    </edge>
+    <edge source="Galicia" target="Galicia">
+      <data key="d0">2.791131</data>
+    </edge>
+    <edge source="Galicia" target="Madrid, Comunidad de">
+      <data key="d0">0.714194</data>
+    </edge>
+    <edge source="Galicia" target="Murcia, Región de">
+      <data key="d0">0.0</data>
+    </edge>
+    <edge source="Galicia" target="Navarra, Comunidad Foral de">
+      <data key="d0">0.043165</data>
+    </edge>
+    <edge source="Galicia" target="País Vasco">
+      <data key="d0">0.183339</data>
+    </edge>
+    <edge source="Galicia" target="Rioja, La">
+      <data key="d0">0.020105</data>
+    </edge>
+    <edge source="Madrid, Comunidad de" target="Andalucía">
+      <data key="d0">8.022586</data>
+    </edge>
+    <edge source="Madrid, Comunidad de" target="Aragón">
+      <data key="d0">0.575677</data>
+    </edge>
+    <edge source="Madrid, Comunidad de" target="Asturias, Principado de">
+      <data key="d0">1.882451</data>
+    </edge>
+    <edge source="Madrid, Comunidad de" target="Balears, Illes">
+      <data key="d0">0.969348</data>
+    </edge>
+    <edge source="Madrid, Comunidad de" target="Canarias">
+      <data key="d0">0.846518</data>
+    </edge>
+    <edge source="Madrid, Comunidad de" target="Cantabria">
+      <data key="d0">1.771428</data>
+    </edge>
+    <edge source="Madrid, Comunidad de" target="Castilla y León">
+      <data key="d0">6.188808</data>
+    </edge>
+    <edge source="Madrid, Comunidad de" target="Castilla - La Mancha">
+      <data key="d0">4.506551</data>
+    </edge>
+    <edge source="Madrid, Comunidad de" target="Cataluña">
+      <data key="d0">1.575683</data>
+    </edge>
+    <edge source="Madrid, Comunidad de" target="Comunitat Valenciana">
+      <data key="d0">7.806396</data>
+    </edge>
+    <edge source="Madrid, Comunidad de" target="Extremadura">
+      <data key="d0">1.627691</data>
+    </edge>
+    <edge source="Madrid, Comunidad de" target="Galicia">
+      <data key="d0">3.317267</data>
+    </edge>
+    <edge source="Madrid, Comunidad de" target="Madrid, Comunidad de">
+      <data key="d0">0.0</data>
+    </edge>
+    <edge source="Madrid, Comunidad de" target="Murcia, Región de">
+      <data key="d0">1.275966</data>
+    </edge>
+    <edge source="Madrid, Comunidad de" target="Navarra, Comunidad Foral de">
+      <data key="d0">0.199463</data>
+    </edge>
+    <edge source="Madrid, Comunidad de" target="País Vasco">
+      <data key="d0">0.756861</data>
+    </edge>
+    <edge source="Madrid, Comunidad de" target="Rioja, La">
+      <data key="d0">0.166882</data>
+    </edge>
+    <edge source="Murcia, Región de" target="Andalucía">
+      <data key="d0">0.710204</data>
+    </edge>
+    <edge source="Murcia, Región de" target="Aragón">
+      <data key="d0">0.074129</data>
+    </edge>
+    <edge source="Murcia, Región de" target="Asturias, Principado de">
+      <data key="d0">0.085363</data>
+    </edge>
+    <edge source="Murcia, Región de" target="Balears, Illes">
+      <data key="d0">0.073062</data>
+    </edge>
+    <edge source="Murcia, Región de" target="Canarias">
+      <data key="d0">0.056866</data>
+    </edge>
+    <edge source="Murcia, Región de" target="Cantabria">
+      <data key="d0">0.055284</data>
+    </edge>
+    <edge source="Murcia, Región de" target="Castilla y León">
+      <data key="d0">0.142237</data>
+    </edge>
+    <edge source="Murcia, Región de" target="Castilla - La Mancha">
+      <data key="d0">0.238375</data>
+    </edge>
+    <edge source="Murcia, Región de" target="Cataluña">
+      <data key="d0">0.231899</data>
+    </edge>
+    <edge source="Murcia, Región de" target="Comunitat Valenciana">
+      <data key="d0">1.177185</data>
+    </edge>
+    <edge source="Murcia, Región de" target="Extremadura">
+      <data key="d0">0.028459</data>
+    </edge>
+    <edge source="Murcia, Región de" target="Galicia">
+      <data key="d0">0.156683</data>
+    </edge>
+    <edge source="Murcia, Región de" target="Madrid, Comunidad de">
+      <data key="d0">0.317093</data>
+    </edge>
+    <edge source="Murcia, Región de" target="Murcia, Región de">
+      <data key="d0">0.0</data>
+    </edge>
+    <edge source="Murcia, Región de" target="Navarra, Comunidad Foral de">
+      <data key="d0">0.034656</data>
+    </edge>
+    <edge source="Murcia, Región de" target="País Vasco">
+      <data key="d0">0.076371</data>
+    </edge>
+    <edge source="Murcia, Región de" target="Rioja, La">
+      <data key="d0">0.015317</data>
+    </edge>
+    <edge source="Navarra, Comunidad Foral de" target="Andalucía">
+      <data key="d0">0.217643</data>
+    </edge>
+    <edge source="Navarra, Comunidad Foral de" target="Aragón">
+      <data key="d0">0.159661</data>
+    </edge>
+    <edge source="Navarra, Comunidad Foral de" target="Asturias, Principado de">
+      <data key="d0">0.045152</data>
+    </edge>
+    <edge source="Navarra, Comunidad Foral de" target="Balears, Illes">
+      <data key="d0">0.035767</data>
+    </edge>
+    <edge source="Navarra, Comunidad Foral de" target="Canarias">
+      <data key="d0">0.038323</data>
+    </edge>
+    <edge source="Navarra, Comunidad Foral de" target="Cantabria">
+      <data key="d0">0.092396</data>
+    </edge>
+    <edge source="Navarra, Comunidad Foral de" target="Castilla y León">
+      <data key="d0">0.155067</data>
+    </edge>
+    <edge source="Navarra, Comunidad Foral de" target="Castilla - La Mancha">
+      <data key="d0">0.03155</data>
+    </edge>
+    <edge source="Navarra, Comunidad Foral de" target="Cataluña">
+      <data key="d0">0.323655</data>
+    </edge>
+    <edge source="Navarra, Comunidad Foral de" target="Comunitat Valenciana">
+      <data key="d0">0.250097</data>
+    </edge>
+    <edge source="Navarra, Comunidad Foral de" target="Extremadura">
+      <data key="d0">0.031455</data>
+    </edge>
+    <edge source="Navarra, Comunidad Foral de" target="Galicia">
+      <data key="d0">0.090979</data>
+    </edge>
+    <edge source="Navarra, Comunidad Foral de" target="Madrid, Comunidad de">
+      <data key="d0">0.10338</data>
+    </edge>
+    <edge source="Navarra, Comunidad Foral de" target="Murcia, Región de">
+      <data key="d0">0.020218</data>
+    </edge>
+    <edge source="Navarra, Comunidad Foral de" target="Navarra, Comunidad Foral de">
+      <data key="d0">0.0</data>
+    </edge>
+    <edge source="Navarra, Comunidad Foral de" target="País Vasco">
+      <data key="d0">0.195145</data>
+    </edge>
+    <edge source="Navarra, Comunidad Foral de" target="Rioja, La">
+      <data key="d0">0.099913</data>
+    </edge>
+    <edge source="País Vasco" target="Andalucía">
+      <data key="d0">1.18284</data>
+    </edge>
+    <edge source="País Vasco" target="Aragón">
+      <data key="d0">0.301044</data>
+    </edge>
+    <edge source="País Vasco" target="Asturias, Principado de">
+      <data key="d0">0.217685</data>
+    </edge>
+    <edge source="País Vasco" target="Balears, Illes">
+      <data key="d0">0.210826</data>
+    </edge>
+    <edge source="País Vasco" target="Canarias">
+      <data key="d0">0.214852</data>
+    </edge>
+    <edge source="País Vasco" target="Cantabria">
+      <data key="d0">1.300382</data>
+    </edge>
+    <edge source="País Vasco" target="Castilla y León">
+      <data key="d0">1.958922</data>
+    </edge>
+    <edge source="País Vasco" target="Castilla - La Mancha">
+      <data key="d0">0.124951</data>
+    </edge>
+    <edge source="País Vasco" target="Cataluña">
+      <data key="d0">0.806933</data>
+    </edge>
+    <edge source="País Vasco" target="Comunitat Valenciana">
+      <data key="d0">0.921443</data>
+    </edge>
+    <edge source="País Vasco" target="Extremadura">
+      <data key="d0">0.378766</data>
+    </edge>
+    <edge source="País Vasco" target="Galicia">
+      <data key="d0">0.682852</data>
+    </edge>
+    <edge source="País Vasco" target="Madrid, Comunidad de">
+      <data key="d0">0.431425</data>
+    </edge>
+    <edge source="País Vasco" target="Murcia, Región de">
+      <data key="d0">0.080205</data>
+    </edge>
+    <edge source="País Vasco" target="Navarra, Comunidad Foral de">
+      <data key="d0">0.389049</data>
+    </edge>
+    <edge source="País Vasco" target="País Vasco">
+      <data key="d0">0.641873</data>
+    </edge>
+    <edge source="País Vasco" target="Rioja, La">
+      <data key="d0">0.571186</data>
+    </edge>
+    <edge source="Rioja, La" target="Andalucía">
+      <data key="d0">0.096602</data>
+    </edge>
+    <edge source="Rioja, La" target="Aragón">
+      <data key="d0">0.045912</data>
+    </edge>
+    <edge source="Rioja, La" target="Asturias, Principado de">
+      <data key="d0">0.033451</data>
+    </edge>
+    <edge source="Rioja, La" target="Balears, Illes">
+      <data key="d0">0.015057</data>
+    </edge>
+    <edge source="Rioja, La" target="Canarias">
+      <data key="d0">0.022243</data>
+    </edge>
+    <edge source="Rioja, La" target="Cantabria">
+      <data key="d0">0.092591</data>
+    </edge>
+    <edge source="Rioja, La" target="Castilla y León">
+      <data key="d0">0.12623</data>
+    </edge>
+    <edge source="Rioja, La" target="Castilla - La Mancha">
+      <data key="d0">0.017863</data>
+    </edge>
+    <edge source="Rioja, La" target="Cataluña">
+      <data key="d0">0.14822</data>
+    </edge>
+    <edge source="Rioja, La" target="Comunitat Valenciana">
+      <data key="d0">0.138344</data>
+    </edge>
+    <edge source="Rioja, La" target="Extremadura">
+      <data key="d0">0.015201</data>
+    </edge>
+    <edge source="Rioja, La" target="Galicia">
+      <data key="d0">0.049694</data>
+    </edge>
+    <edge source="Rioja, La" target="Madrid, Comunidad de">
+      <data key="d0">0.056038</data>
+    </edge>
+    <edge source="Rioja, La" target="Murcia, Región de">
+      <data key="d0">0.010183</data>
+    </edge>
+    <edge source="Rioja, La" target="Navarra, Comunidad Foral de">
+      <data key="d0">0.089293</data>
+    </edge>
+    <edge source="Rioja, La" target="País Vasco">
+      <data key="d0">0.123711</data>
+    </edge>
+    <edge source="Rioja, La" target="Rioja, La">
+      <data key="d0">0.0</data>
+    </edge>
+  </graph>
+</graphml>
