@@ -53,49 +53,31 @@ pip install jupyter pandas networkx matplotlib
 
 ### Key Scripts
 
-1. **`network_calculation.R`**
-   - Combines adjacency matrices with weighted higher-order walk matrices for community detection.
-   - Applies multiple algorithms (Louvain, Leiden, Walktrap, Infomap, Fast Greedy).
-   - Computes and stores modularity values for each network.
-
-2. **`modularity_results.R`**
-   - Processes networks to compute and compare modularity values across algorithms.
-   - Reads GraphML files and outputs a consolidated CSV file for benchmark comparisons.
-
-3. **`network_analysis.R`**
-   - Evaluates the performance of community detection algorithms.
-   - Generates improvement metrics and visualizations, including boxplots.
-   - Outputs aggregated results in `Metrics/alpha_distribution.csv`.
-  
-4. **`Functions.R`**
-   - Supporting functions used in the code for aggregation.
-   - Additional functions for other approaches not described in this paper, including resolution parameter iteration and alternative aggregation methods.
-
-5. **`analisis_redes.R`**
+1. **`analisis_redes.R`**
    - Reads modularity results from multiple CSV files and computes performance metrics for different algorithms.
 
-6. **`bernoulli_v2.R`**
+2. **`bernoulli_v2.R`**
    - Computes confidence intervals for algorithm performance based on Bernoulli distributions.
 
-7. **`calculo_redes_nuevo.R`**
+3. **`calculo_redes_nuevo.R`**
    - Iterates over multiple networks, precomputes adjacency matrices, and applies different clustering algorithms.
 
-8. **`calculo_redes_real_case.R`**
+4. **`calculo_redes_real_case.R`**
    - Processes a real-world network dataset, applying modularity-based community detection methods.
 
-9. **`Nodes and Edges.R`**
+5. **`Nodes and Edges.R`**
    - Computes the number of nodes and edges in given `.graphml` network files.
 
-10. **`plots heatmap.R`**
+6. **`plots heatmap.R`**
     - Generates heatmaps and computational time comparison plots for different algorithms.
 
-11. **`synthetic network.R`**
+7. **`synthetic network.R`**
     - Generates synthetic hierarchical networks and saves them as `.graphml` files.
 
-12. **`modelo ampliado (variable importance).R`**
+8. **`modelo ampliado (variable importance).R`**
     - Trains multiple machine learning models (Logistic Regression, SVM, Random Forest, XGBoost) to predict network modularity improvement and extracts variable importance.
 
-13. **`syntethic networks.ipynb`**
+9. **`syntethic networks.ipynb`**
     - Notebook related to synthetic network generation and analysis.
 
 ---
