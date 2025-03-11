@@ -55,30 +55,66 @@ pip install jupyter pandas networkx matplotlib
 
 1. **`analisis_redes.R`**
    - Reads modularity results from multiple CSV files and computes performance metrics for different algorithms.
+   - **Execution**:
+     ```r
+     source("scripts/analisis_redes.R")
+     ```
 
 2. **`bernoulli_v2.R`**
    - Computes confidence intervals for algorithm performance based on Bernoulli distributions.
+   - **Execution**:
+     ```r
+     source("scripts/bernoulli_v2.R")
+     ```
 
 3. **`calculo_redes_nuevo.R`**
    - Iterates over multiple networks, precomputes adjacency matrices, and applies different clustering algorithms.
+   - **Execution**:
+     ```r
+     source("scripts/calculo_redes_nuevo.R")
+     ```
 
 4. **`calculo_redes_real_case.R`**
    - Processes a real-world network dataset, applying modularity-based community detection methods.
+   - **Execution**:
+     ```r
+     source("scripts/calculo_redes_real_case.R")
+     ```
 
 5. **`Nodes and Edges.R`**
    - Computes the number of nodes and edges in given `.graphml` network files.
+   - **Execution**:
+     ```r
+     source("scripts/Nodes_and_Edges.R")
+     ```
 
 6. **`plots heatmap.R`**
-    - Generates heatmaps and computational time comparison plots for different algorithms.
+   - Generates heatmaps and computational time comparison plots for different algorithms.
+   - **Execution**:
+     ```r
+     source("scripts/plots_heatmap.R")
+     ```
 
 7. **`synthetic network.R`**
-    - Generates synthetic hierarchical networks and saves them as `.graphml` files.
+   - Generates synthetic hierarchical networks and saves them as `.graphml` files.
+   - **Execution**:
+     ```r
+     source("scripts/synthetic_network.R")
+     ```
 
 8. **`modelo ampliado (variable importance).R`**
-    - Trains multiple machine learning models (Logistic Regression, SVM, Random Forest, XGBoost) to predict network modularity improvement and extracts variable importance.
+   - Trains multiple machine learning models to predict network modularity improvement and extracts variable importance.
+   - **Execution**:
+     ```r
+     source("scripts/modelo_ampliado_variable_importance.R")
+     ```
 
 9. **`syntethic networks.ipynb`**
-    - Notebook related to synthetic network generation and analysis.
+   - Notebook related to synthetic network generation and analysis.
+   - **Execution**:
+     ```bash
+     jupyter notebook scripts/syntethic_networks.ipynb
+     ```
 
 ---
 
@@ -97,6 +133,7 @@ pip install jupyter pandas networkx matplotlib
 - **`all_algorithms_heatmap.pdf`**: Aggregated heatmap comparing all algorithms.
 - **`time_plot.pdf`**: Visualization of computational time increase across different algorithms.
 - **`algorithm_improvement_distribution.pdf`**: Boxplot of improvement percentages across all tested algorithms.
+- **`monthly partitions.xlsx`**: Community detection results for different time periods.
 - **`networks_used.csv`**: List of networks used in this paper. All were downloaded from [http://konect.cc/networks/](http://konect.cc/networks/)
 
 ---
@@ -119,3 +156,4 @@ Contributions are welcome! Please follow these guidelines:
 ## Acknowledgements
 
 This research has been partially supported by the Government of Spain, Grant Plan Nacional de I+D+i, PID2021-122905NB-C21.
+
