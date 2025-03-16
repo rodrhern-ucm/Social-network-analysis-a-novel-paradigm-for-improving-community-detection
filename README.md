@@ -24,7 +24,6 @@ The repository includes:
   - **`real case graph creation.ipynb`**: Jupyter notebook that constructs the network from the clean dataset.
   - **`calculo_redes_real_case.R`**: R script for applying community detection and computing modularity.
   - **`monthly partitions.xlsx`**: Output file containing monthly partitioning results for community detection.
-- **`scripts/`**: Additional scripts for data processing, visualizations, and machine learning analysis.
 
 ---
 
@@ -62,59 +61,29 @@ pip install jupyter pandas networkx matplotlib
 
 2. **`bernoulli_v2.R`**
    - Computes confidence intervals for algorithm performance based on Bernoulli distributions.
-   - **Execution**:
-     ```r
-     source("scripts/bernoulli_v2.R")
      ```
 
 3. **`calculo_redes_nuevo.R`**
    - Iterates over multiple networks, precomputes adjacency matrices, and applies different clustering algorithms.
-   - **Execution**:
-     ```r
-     source("scripts/calculo_redes_nuevo.R")
-     ```
+   ```
 
 4. **`calculo_redes_real_case.R`**
    - Processes a real-world network dataset, applying modularity-based community detection methods.
-   - **Execution**:
-     ```r
-     source("scripts/calculo_redes_real_case.R")
-     ```
 
 5. **`Nodes and Edges.R`**
    - Computes the number of nodes and edges in given `.graphml` network files.
-   - **Execution**:
-     ```r
-     source("scripts/Nodes_and_Edges.R")
-     ```
 
 6. **`plots heatmap.R`**
    - Generates heatmaps and computational time comparison plots for different algorithms.
-   - **Execution**:
-     ```r
-     source("scripts/plots_heatmap.R")
-     ```
 
 7. **`synthetic network.R`**
    - Generates synthetic hierarchical networks and saves them as `.graphml` files.
-   - **Execution**:
-     ```r
-     source("scripts/synthetic_network.R")
-     ```
 
 8. **`modelo ampliado (variable importance).R`**
    - Trains multiple machine learning models to predict network modularity improvement and extracts variable importance.
-   - **Execution**:
-     ```r
-     source("scripts/modelo_ampliado_variable_importance.R")
-     ```
 
 9. **`syntethic networks.ipynb`**
    - Notebook related to synthetic network generation and analysis.
-   - **Execution**:
-     ```bash
-     jupyter notebook scripts/syntethic_networks.ipynb
-     ```
 
 ---
 
