@@ -54,18 +54,13 @@ pip install jupyter pandas networkx matplotlib
 
 1. **`analisis_redes.R`**
    - Reads modularity results from multiple CSV files and computes performance metrics for different algorithms.
-   - **Execution**:
-     ```r
-     source("scripts/analisis_redes.R")
-     ```
 
 2. **`bernoulli_v2.R`**
    - Computes confidence intervals for algorithm performance based on Bernoulli distributions.
-     ```
 
 3. **`calculo_redes_nuevo.R`**
    - Iterates over multiple networks, precomputes adjacency matrices, and applies different clustering algorithms.
-   ```
+
 
 4. **`calculo_redes_real_case.R`**
    - Processes a real-world network dataset, applying modularity-based community detection methods.
